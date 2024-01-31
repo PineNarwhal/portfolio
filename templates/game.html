@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title> CL Portfolio </title>
+{% endblock %}
+
+{% block body %}
+<main>
+    {% include 'layouts/navbar.html' %}
+    <div class="px-5 py-4 my-6 text-center">
+        <h1 class="fw-bold display-5"> Microsoft Makecode Games </h1>
+        <div>
+            <h3 class="text-center">I made these games using microsoft makecode, please check them out below:</h3>
+        </div>
+    </div>
+
+    <div style="position:relative;height:0;padding-bottom:117.6%;overflow:hidden;"><iframe style="position:absolute;left:25%;width:50%;height:50%;" src="https://arcade.makecode.com/---run?id=S55155-45651-21957-05109" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+    
+    <div style="position:relative;height:0;padding-bottom:117.6%;overflow:hidden;"><iframe style="position:absolute;left:25%;width:50%;height:50%;" src="https://arcade.makecode.com/---run?id=S48502-36746-08318-80668" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+</main>
+
+{% include 'layouts/footer.html' %}
+{% endblock %}
